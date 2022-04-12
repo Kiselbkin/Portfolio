@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="https://i.ibb.co/FgNxzTj/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Dmitiy-Portfolio</title>
+
+        <base target="_blank">
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="https://i.ibb.co/FHBf9WV/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Dmitriy Novoseletsky</h2>
+                    <h3 class="profile__profession">Video Editor</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/kiselbkin/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.behance.net/kiselb" target="_blank" class="profile__social-link">
+                            <i class="ri-behance-line"></i>
+                        </a>
+                        <a href="https://t.me/Kiselb" target="_blank" class="profile__social-link">
+                            <i class="ri-telegram-line"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCk0SlLImxwBUck3KUs_QC-g" target="_blank" class="profile__social-link">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                        <a href="mailto:mrkisle@gmail.com" target="_blank" class="profile__social-link">
+                            <i class="ri-mail-send-line"></i>
+                        </a>
+                         <a href="https://www.google.ru/maps/place/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80,+%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%80%D0%B0%D0%B9/@45.0578614,38.9276344,12z/data=!3m1!4b1!4m5!3m4!1s0x40f04564714535b3:0xf720794f56c4beb6!8m2!3d45.036035!4d38.9745706" target="_blank" class="profile__social-link">
+                            <i class="ri-compass-3-line"></i>
+                        </a>
+                        <a href="https://discordapp.com/users/247346628019748865" target="_blank" class="profile__social-link">
+                            <i class="ri-discord-fill"></i>
+                        </a>
+
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">4</h3>
+                        <p class="profile__info-description">
+                            Years of <br> work
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">60</h3>
+                        <p class="profile__info-description">
+                            Completed <br> projects
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">15</h3>
+                        <p class="profile__info-description">Templates<br>on Envato</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <!-- Insert your CV -->
+                    <a download="" href="assets/pdf/CV.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://t.me/Kiselb" target="_blank" class="button button__small button__gray">
+                            <i class="ri-telegram-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="mailto:mrkisle@gmail.com" target="_blank" class="button button__small button__gray">
+                            <i class="ri-mail-open-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="https://i.ibb.co/7rHsKmy/project1.png" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/K5jZ9fj/Gif1.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Music visualization</h3>
+                                    <a href="https://www.youtube.com/watch?v=kww3HhJFcOs" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="https://i.ibb.co/rc7mF0h/Project2.gif" alt="" class="projects__img">
+
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/qmW1MZ9/Gif2.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Music visualization</h3>
+                                    <a href="https://www.youtube.com/watch?v=efiRRZH8BJE" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+
+                            <img src="https://i.ibb.co/xhzWGx3/Project3.jpg" alt="" class="projects__img">
+
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/rQ3SRcP/Gif3.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Graphic</span>
+                                    <h3 class="projects__title">Hud cross</h3>
+                                    <a href="https://youtu.be/MRCBF2N9teI" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="https://i.ibb.co/s199tNW/Project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/MDM3G9s/Gif4-1.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Promo</span>
+                                    <h3 class="projects__title">MultiScreen</h3>
+                                    <a href="https://www.youtube.com/watch?v=5mZyEUigGsw" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="https://i.ibb.co/sFf7tVd/Project14.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/gTHTP0b/Gif14-1.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Lower Thirds</h3>
+                                    <a href="https://youtu.be/kV8U2HG8lzU" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="projects__card">
+                            <img src="https://i.ibb.co/nDbq4hj/Project13.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/yN9B8VC/Gif13.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">NFT Promo</h3>
+                                    <a href="https://youtu.be/LQamTpyjm-w" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="https://i.ibb.co/hgcQP9d/Project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/FmW9tRR/Gif5.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Typography under beat</h3>
+                                    <a href="https://youtu.be/qaKPcjW9EjY" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+ <article class="projects__card">
+                            <img src="https://i.ibb.co/gMF6GKp/Project6.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/nsGRbr8/Gif6.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Paralax swipe</h3>
+                                    <a href="https://youtu.be/ZyL8-CvnAic" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                           <article class="projects__card">
+                            <img src="https://i.ibb.co/HKMdPMg/Project7.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/B6Y5W1B/Gif7.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Double expouse</h3>
+                                    <a href="https://youtu.be/gMliI1zCbpo" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                             <article class="projects__card">
+                            <img src="https://i.ibb.co/sQLTcyc/Project8.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/xDR1bCj/Gif8.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Liquid Logo</h3>
+                                    <a href="https://youtu.be/zMMkPQIW3Bc" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                            <article class="projects__card">
+                            <img src="https://i.ibb.co/1rL2jx7/Project9.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/441Kfhv/Gif9.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">Infographic number</h3>
+                                    <a href="https://youtu.be/SBBTkbvi9Ao" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                           <article class="projects__card">
+                            <img src="https://i.ibb.co/V9BnK23/Project10.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/jGJZDk1/Gif10.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">3D Titile</h3>
+                                    <a href="https://youtu.be/M_TFduBfUEI" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                           <article class="projects__card">
+                            <img src="https://i.ibb.co/Bn6Msrg/Project12.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/Z8bM8M0/Gif12.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Background</span>
+                                    <h3 class="projects__title">Animation BG</h3>
+                                    <a href="https://youtu.be/97lqnDaQ2UI" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                            <article class="projects__card">
+                            <img src="https://i.ibb.co/ZMGmLWh/Project11.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal2">
+                                <div>
+                                <img src="https://i.ibb.co/GCNsNWz/Gif11.gif" alt="" class="projects__img">
+                            </div>
+                            </div>
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Animation</span>
+                                    <h3 class="projects__title">NFT Promo2</h3>
+                                    <a href="https://youtu.be/9k2ptIeXCYg" class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Core Skills</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">After Effects</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Premiere Pro</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Illustrator</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Figma</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Photoshop</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Cinema 4D</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Secondary Skills</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Javascript</h3>
+                                            <span class="skills__level">Basic</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Excel</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Access</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Constuct 2</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Thanks for watching
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
