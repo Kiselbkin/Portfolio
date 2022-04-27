@@ -1,3 +1,4 @@
+
 /*=============== FILTERS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
@@ -55,6 +56,22 @@ const sr = ScrollReveal({
     duration: 2500,
     delay: 400,
 })
+
+/*=============== BUTTONS LANG ===============*/
+const en = document.getElementById('en'),
+      ru = document.getElementById('ru')
+
+      en.addEventListener('click',() => {
+          ru.classList.add('active-ru')
+          en.classList.remove('active-en')
+      })
+      ru.addEventListener('click',() => {
+          en.classList.add('active-en')
+          ru.classList.remove('active-ru')
+      })
+
+
+
 
 sr.reveal(`.profile__border`)
 sr.reveal(`.profile__name`, {delay: 500})

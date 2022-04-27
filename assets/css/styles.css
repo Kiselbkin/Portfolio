@@ -1,5 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -26,7 +27,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Montserrat', sans-serif;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
   --normal-font-size: .938rem;
@@ -101,8 +102,8 @@ body.dark-theme {
   --container-color: hsl(var(--hue), 24%, 12%);
 }
 
-/*========== 
-    Color changes in some parts of 
+/*==========
+    Color changes in some parts of
     the website, in light theme
 ==========*/
 .dark-theme .button__gray {
@@ -141,6 +142,52 @@ body.dark-theme {
   gap: 1.5rem;
 }
 
+/* ==============TRANSLATE============== */
+.img-ru{
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  top: 1.3rem;
+  left:1rem;
+  cursor: pointer;
+  opacity: 0%;
+  border-radius: 10%;
+  box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+  visibility: hidden;
+}
+.img-en{
+  height: 20px;
+  width: 30px;
+  position: absolute;
+  top: 1.3rem;
+  left:1rem;
+  cursor: pointer;
+  opacity: 0%;
+  border-radius: 10%;
+  box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+  visibility: hidden;
+}
+.img-ru:hover {
+  opacity: 100%;
+  box-shadow: 0 8px 24px hsla(220, var(--sat), var(--lig), .60);
+}
+.img-en:hover {
+  opacity: 100%;
+  box-shadow: 0 8px 24px hsla(220, var(--sat), var(--lig), .60);
+}
+.active-en img{
+  opacity: 70%;
+  visibility: visible;
+}
+.active-ru img{
+  opacity: 70%;
+  visibility: visible;
+}
+.translate {
+  border: none;
+  background: transparent;
+}
+
 /*=============== PROFILE ===============*/
 .profile {
   position: relative;
@@ -159,8 +206,8 @@ body.dark-theme {
 .profile__perfil {
   width: 100px;
   height: 100px;
-  background: linear-gradient(180deg, 
-              hsla(var(--hue), var(--sat), var(--lig), 1) 0%, 
+  background: linear-gradient(180deg,
+              hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
               hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
   border-radius: 50%;
   overflow: hidden;
@@ -231,7 +278,7 @@ body.dark-theme {
   font-weight: 500;
 }
 
-.profile__buttons, 
+.profile__buttons,
 .profile__buttons-small {
   display: flex;
   align-items: center;
@@ -329,8 +376,8 @@ body.dark-theme {
   height: 100%;
   bottom: -100%;
   left: 0;
-  background: linear-gradient(180deg, 
-              hsla(var(--hue), 24%, 40%, .3) 0%, 
+  background: linear-gradient(180deg,
+              hsla(var(--hue), 24%, 40%, .3) 0%,
               hsla(var(--hue), 24%, 4%, 1) 95%);
   display: grid;
   align-items: flex-end;
@@ -348,7 +395,7 @@ body.dark-theme {
   transition: 0s;
 }
 
-.projects__subtitle, 
+.projects__subtitle,
 .projects__title {
   color: #fff;
 }
