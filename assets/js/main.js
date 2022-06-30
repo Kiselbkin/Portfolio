@@ -2,7 +2,7 @@
 /*=============== FILTERS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
-var lefttab = document.getElementById('projecttab');
+
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
         const target = document.querySelector(tab.dataset.target)
