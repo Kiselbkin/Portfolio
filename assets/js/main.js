@@ -2,7 +2,7 @@
 /*=============== FILTERS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
-
+var lefttab = document.getElementById('projecttab');
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
         const target = document.querySelector(tab.dataset.target)
@@ -12,12 +12,16 @@ tabs.forEach(tab =>{
         })
         target.classList.add('filters__active')
 
+
         tabs.forEach(t =>{
             t.classList.remove('filter-tab-active')
+
         })
         tab.classList.add('filter-tab-active')
     })
 })
+/*=============== TABS BACK/PROJECT===============*/
+
 
 /*=============== DARK LIGHT THEME ===============*/
 const themeButton = document.getElementById('theme-button')

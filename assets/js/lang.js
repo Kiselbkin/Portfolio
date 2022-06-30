@@ -22,7 +22,12 @@ var arrLang = {
     'inter': 'Intermediate',
     'basic': 'Basic',
     'thank': 'Thanks for watching',
-
+    '2d': '2D Animation',
+    '3d': '3D Animation',
+    'music': 'Music visualization',
+    'other': 'Other',
+    'click': 'Click',
+    'back' : 'Back'
   },
   'en': {
     'name': 'Дмитрий Новоселецкий',
@@ -42,6 +47,12 @@ var arrLang = {
     'inter': 'Средний',
     'basic': 'Базовый',
     'thank': 'Спасибо за просмотр',
+    '2d': '2D Анимации',
+    '3d': '3D Анимации',
+    'music': 'Визуализация аудио',
+    'other': 'Другое',
+    'click': 'Нажми',
+    'back' : 'Назад'
   }
 }
 
