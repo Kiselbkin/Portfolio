@@ -2,7 +2,6 @@
 /*=============== FILTERS TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
-
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
         const target = document.querySelector(tab.dataset.target)
@@ -75,6 +74,30 @@ const en = document.getElementById('en'),
       })
 
 
+
+        document.getElementById('projecttab').addEventListener('click', function() {
+          if(en.classList.contains('active-en')) {
+            document.getElementById('projecttab').innerHTML = 'Projects';
+            document.getElementById('projecttab').setAttribute('key','tab1');
+            document.getElementById('projecttab').classList.remove('filter-back');
+          } else {
+            document.getElementById('projecttab').innerHTML = 'Проекты';
+            document.getElementById('projecttab').setAttribute('key','tab1');
+            document.getElementById('projecttab').classList.remove('filter-back');
+          }
+        })
+
+        document.querySelector('.projects__content').addEventListener('click', function() {
+          if(en.classList.contains('active-en')) {
+            document.getElementById('projecttab').innerHTML = 'Back';
+            document.getElementById('projecttab').setAttribute('key','back');
+            document.getElementById('projecttab').classList.add('filter-back');
+          } else {
+            document.getElementById('projecttab').innerHTML = 'Назад';
+            document.getElementById('projecttab').setAttribute('key','back');
+            document.getElementById('projecttab').classList.add('filter-back');
+          }
+        })
 
 
 sr.reveal(`.profile__border`)

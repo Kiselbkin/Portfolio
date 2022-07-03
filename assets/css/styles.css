@@ -550,6 +550,12 @@ body.dark-theme {
 .filter-tab-active {
   background-color: var(--body-color);
 }
+.filter-back {
+  background-color: hsl(207, 60%, 50%);
+}
+.filter-back:hover{
+  background-color: hsl(207, 90%, 61%);
+}
 
 /*=============== FOOTER ===============*/
 .footer__copy {
