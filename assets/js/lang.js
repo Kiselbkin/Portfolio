@@ -14,7 +14,7 @@ var arrLang = {
     'project2': 'projects',
     'envato1': 'Templates',
     'envato2': 'on Envato',
-    'CV': 'Download CV',
+    'CV': 'Telegram',
     'tab1': 'Projects',
     'tab2': 'Skills',
     'core': 'Core Skills',
@@ -27,7 +27,8 @@ var arrLang = {
     'music': 'Music visualization',
     'other': 'Other',
     'click': 'Click',
-    'back' : 'Back'
+    'back' : 'Back',
+    'advanced' : 'Advanced'
   },
   'en': {
     'name': 'Дмитрий Новоселецкий',
@@ -38,7 +39,7 @@ var arrLang = {
     'project2': 'проектов',
     'envato1': 'Шаблонов',
     'envato2': 'на Envato',
-    'CV': 'Скачать CV',
+    'CV': 'Телеграм',
     'tab1': 'Проекты',
     'tab2': 'Навыки',
     'core': 'Основные Навыки',
@@ -52,7 +53,8 @@ var arrLang = {
     'music': 'Визуализация аудио',
     'other': 'Другое',
     'click': 'Нажми',
-    'back' : 'Назад'
+    'back' : 'Назад',
+    'advanced' : 'Продвинутый'
   }
 }
 
