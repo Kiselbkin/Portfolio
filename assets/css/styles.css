@@ -391,7 +391,7 @@ body.dark-theme {
   bottom: -100%;
   left: 0;
   background: linear-gradient(180deg,
-              hsla(var(--hue), 24%, 40%, .3) 0%,
+              hsla(var(--hue), 24%, 30%, .3) 0%,
               hsla(var(--hue), 24%, 4%, 1) 95%);
   display: grid;
   align-items: flex-end;
@@ -416,7 +416,7 @@ body.dark-theme {
   bottom: 0;
   left: 0;
   background: linear-gradient(180deg,
-              hsla(var(--hue), 24%, 50%, .3) 0%,
+              hsla(var(--hue), 24%, 10%, .3) 0%,
               hsla(var(--hue), 24%,10%, 1) 98%);
   display: grid;
   align-items: flex-end;
